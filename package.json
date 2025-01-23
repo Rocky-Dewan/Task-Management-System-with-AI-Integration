@@ -1,0 +1,17 @@
+{
+  "name": "trello-ai",
+  "version": "1.0.0",
+  "description": "Trello-like app with AI task prioritization",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "train-ai": "python ai/training/train_model.py"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^8.9.5"
+  }
+}
