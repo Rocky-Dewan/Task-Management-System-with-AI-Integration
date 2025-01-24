@@ -1,10 +1,11 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const HomePage = () => {
     return (
-        <div>
+        <div style={{ textAlign: 'center', padding: '2rem' }}>
             <h1>Welcome to Trello AI</h1>
-            <a href="/login">Login</a> | <a href="/register">Register</a>
+            <Link to="/login">Login</Link> | <Link to="/register">Register</Link>
         </div>
     );
 };
